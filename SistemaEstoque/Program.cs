@@ -1,16 +1,15 @@
-﻿// Importa as ferramentas do MySQL e do C#
+
 using MySql.Data.MySqlClient;
 using System;
 
-// A "ponte" para o banco de dados. Lembre-se de colocar sua senha!
+
 string connectionString = "Server=localhost;Database=ControleEstoqueDB;User=root;Password=Ugb2024;";
 
-// O menu principal que roda para sempre
 while (true)
 {
     Console.Clear();
     Console.WriteLine("================================");
-    Console.WriteLine("  SISTEMA DE CONTROLE DE ESTOQUE (Simples) ");
+    Console.WriteLine("  SISTEMA DE CONTROLE DE ESTOQUE");
     Console.WriteLine("================================");
     Console.WriteLine("1 - Cadastrar Produto");
     Console.WriteLine("2 - Listar Produtos");
