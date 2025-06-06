@@ -13,7 +13,7 @@ Listar Produtos: Exibe todos os produtos cadastrados em uma tabela organizada no
 Atualizar Estoque: Permite alterar a quantidade em estoque de um produto existente através de seu ID.
 Remover Produtos: Exclui um produto do banco de dados de forma permanente, utilizando seu ID.
 
-🛠 Tecnologias Utilizadas:
+ Tecnologias Utilizadas:
 C# (.NET 8)
 MySQL
 ADO.NET (MySql.Data)
